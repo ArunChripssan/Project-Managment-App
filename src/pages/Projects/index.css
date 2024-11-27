@@ -1,0 +1,48 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.project-body{
+    height: calc(100dvh - 60px);
+    margin: 30px;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+
+.create-project button {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.card {
+    width: 30%;
+    min-width: 18rem;
+    height: 15rem;
+}
+
+.project-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-icons {
+    display: flex;
+    gap: 5px;
+}
+
+
+

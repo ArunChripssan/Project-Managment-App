@@ -1,0 +1,73 @@
+{
+    "roles": {
+        "MANAGER": "MANAGER",
+        "LEAD": "LEAD",
+        "MEMBER": "MEMBER"
+    },
+    "users": [
+        {
+            "id": 1,
+            "name": "Arun",
+            "role": "MANAGER",
+            "email": "arun@gmail.com",
+            "status": "Active"
+        },
+        {
+            "id": 2,
+            "name": "Chripssan",
+            "role": "Employee",
+            "email": "chripssan@gmail.com",
+            "status": "Active"
+        },
+        {
+            "id": 3,
+            "name": "Aaron",
+            "role": "Employee",
+            "email": "aaron@gmail.com",
+            "status": "Active"
+        },
+        {
+            "id": 4,
+            "name": "Jerin",
+            "role": "Project manager",
+            "email": "jerin@gmail.com",
+            "status": "Active"
+        },
+        {
+            "id": 5,
+            "name": "Joevin",
+            "role": "Employee",
+            "email": "joevin@gmail.com",
+            "status": "Active"
+        }
+    ],
+    "projects": [
+        { "id": 1, "title": "UI/UX Design", "description": "create the UI/UX design for the website" },
+        { "id": 2, "title": "World", "description": "world" },
+        { "id": 3, "title": "Sample", "description": "sample Project" },
+        { "id": 4, "title": "Sample", "description": "sample Project" },
+        { "id": 5, "title": "Sample", "description": "sample Project" }
+    ],
+    "projectAccess": [
+        {
+            "id": 1,
+            "userId": 1,
+            "projectId": 1
+        },
+        {
+            "id": 2,
+            "userId": 1,
+            "projectId": 3
+        },
+        {
+            "id": 3,
+            "userId": 3,
+            "projectId": 3
+        },
+        {
+            "id": 2,
+            "userId": 1,
+            "projectId": 3
+        }
+    ]
+}
